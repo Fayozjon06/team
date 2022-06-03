@@ -1,7 +1,32 @@
-*{
-    padding: 0;
+
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    gap: 500px;
+    background-color: blue;
+    justify-content: center;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.menu li:hover a {
+    color: coral;
+}
+
+.menu li a {
+    transition: .3s;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+  font-family: sans-serif;
 }
 
 .box{
