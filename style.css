@@ -1,8 +1,10 @@
+
 *{
     margin: 0;
     padding: 0;
   box-sizing: border-box;
 }
+
 .foter{
     width: 100%;
     height: 100px;
@@ -12,6 +14,62 @@
     justify-content: center;
     align-items: center;
 }
+
+.menu {
+    display: flex;
+    gap: 500px;
+    background-color: blue;
+    justify-content: center;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.menu li:hover a {
+    color: coral;
+}
+
+.menu li a {
+    transition: .3s;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+  font-family: sans-serif;
+}
+
+.box{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.user{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.sub{
+    width: 90px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: 18px;
+    border: none
+}
+
 .h3f{
     color: #fff;
     font-size: 3em;
@@ -19,10 +77,14 @@
     transition: .5s;
     text-transform: uppercase;
     font-family: sans-serif;
-
 }
+
 .h3f:hover{
     font-size: 4em;
     color: rgb(171, 171, 171);
     letter-spacing: 3px;
+}
+
+.sub:hover{
+    background-color: rgba(35, 1, 3, 0.906);
 }
