@@ -88,3 +88,30 @@
 .sub:hover{
     background-color: rgba(35, 1, 3, 0.906);
 }
+
+.card{
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nature{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-title{
+    width: 100%;
+    position: absolute;
+    bottom: -21px;
+    left: 0;
+    line-height: 300%;
+    color: white;
+    background-color: rgba(0, 0, 111, 0.558);
+    text-align: center;
+    font-family: sans-serif;
+}
